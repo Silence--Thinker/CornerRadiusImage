@@ -8,6 +8,7 @@
 
 #import "RadiusImageCell.h"
 #import "UIImageView+CornerRadius.h"
+#import "UIImageView+Radius.h"
 
 @interface RadiusImageCell ()
 
@@ -16,9 +17,7 @@
 
 - (void)awakeFromNib {
     [super awakeFromNib];
-    [self image:self.leftImage radius:20.0];
-    [self image:self.centerImage radius:12.0];
-    [self image:self.rightImage radius:10.0];
+//    [self xj_bulidingView];
 }
 
 - (void)setDict:(NSDictionary *)dict {
@@ -29,6 +28,14 @@
     
     self.leftLabel.text = dict[@"leftTitle"];
     self.rightLabel.text = dict[@"rightTitle"];
+    
+    [self xj_bulidingView];
+}
+
+- (void)xj_bulidingView {
+    [self image:self.leftImage radius:20.0];
+    [self image:self.centerImage radius:12.0];
+    [self image:self.rightImage radius:10.0];
 }
 
 - (void)image:(UIImageView *)view radius:(CGFloat)radius {
@@ -37,7 +44,8 @@
 //    
 
     // 用了这方法之后 内存下降了不少 但是，FPS 并不会下降 应该是没有使用多线程的原因
-    [view zy_cornerRadiusAdvance:radius rectCornerType:UIRectCornerAllCorners];
+//    [view zy_cornerRadiusAdvance:radius rectCornerType:UIRectCornerAllCorners];
+    [view cornerRadius:radius rectCornerType:UIRectCornerAllCorners];
     
 }
 

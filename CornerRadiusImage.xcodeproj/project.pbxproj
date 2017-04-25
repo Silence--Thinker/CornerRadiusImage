@@ -17,6 +17,7 @@
 		CB499C501EAF49C60013C3D2 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C4D1EAF49C60013C3D2 /* YYFPSLabel.m */; };
 		CB499C511EAF49C60013C3D2 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C4F1EAF49C60013C3D2 /* YYWeakProxy.m */; };
 		CB499C551EAF4C350013C3D2 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */; };
+		CB499C5C1EAF51010013C3D2 /* UIImageView+Radius.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C5B1EAF51010013C3D2 /* UIImageView+Radius.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		CB499C4F1EAF49C60013C3D2 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		CB499C531EAF4C350013C3D2 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
 		CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+		CB499C5A1EAF51010013C3D2 /* UIImageView+Radius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Radius.h"; sourceTree = "<group>"; };
+		CB499C5B1EAF51010013C3D2 /* UIImageView+Radius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Radius.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,7 @@
 		CB499C451EAF36080013C3D2 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				CB499C561EAF50980013C3D2 /* XJImageRadius */,
 				CB499C521EAF4C350013C3D2 /* CornerRadiusCategory */,
 				CB499C4B1EAF49C60013C3D2 /* YYFPSLabel */,
 			);
@@ -137,6 +141,15 @@
 				CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */,
 			);
 			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
+		CB499C561EAF50980013C3D2 /* XJImageRadius */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C5A1EAF51010013C3D2 /* UIImageView+Radius.h */,
+				CB499C5B1EAF51010013C3D2 /* UIImageView+Radius.m */,
+			);
+			path = XJImageRadius;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +229,7 @@
 				CB499C2A1EAF351E0013C3D2 /* main.m in Sources */,
 				CB499C471EAF36080013C3D2 /* AppDelegate.m in Sources */,
 				CB499C4A1EAF3B030013C3D2 /* RadiusImageCell.m in Sources */,
+				CB499C5C1EAF51010013C3D2 /* UIImageView+Radius.m in Sources */,
 				CB499C551EAF4C350013C3D2 /* UIImageView+CornerRadius.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -375,6 +389,7 @@
 				CB499C3E1EAF351E0013C3D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
