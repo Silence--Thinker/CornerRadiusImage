@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB499C2A1EAF351E0013C3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C291EAF351E0013C3D2 /* main.m */; };
+		CB499C331EAF351E0013C3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB499C311EAF351E0013C3D2 /* Main.storyboard */; };
+		CB499C351EAF351E0013C3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB499C341EAF351E0013C3D2 /* Assets.xcassets */; };
+		CB499C381EAF351E0013C3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB499C361EAF351E0013C3D2 /* LaunchScreen.storyboard */; };
+		CB499C461EAF36080013C3D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C411EAF36080013C3D2 /* ViewController.m */; };
+		CB499C471EAF36080013C3D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C441EAF36080013C3D2 /* AppDelegate.m */; };
+		CB499C4A1EAF3B030013C3D2 /* RadiusImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C491EAF3B030013C3D2 /* RadiusImageCell.m */; };
+		CB499C501EAF49C60013C3D2 /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C4D1EAF49C60013C3D2 /* YYFPSLabel.m */; };
+		CB499C511EAF49C60013C3D2 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C4F1EAF49C60013C3D2 /* YYWeakProxy.m */; };
+		CB499C551EAF4C350013C3D2 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB499C251EAF351E0013C3D2 /* CornerRadiusImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadiusImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB499C291EAF351E0013C3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB499C321EAF351E0013C3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB499C341EAF351E0013C3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB499C371EAF351E0013C3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB499C391EAF351E0013C3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB499C401EAF36080013C3D2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CB499C411EAF36080013C3D2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB499C431EAF36080013C3D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB499C441EAF36080013C3D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB499C481EAF3B030013C3D2 /* RadiusImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadiusImageCell.h; sourceTree = "<group>"; };
+		CB499C491EAF3B030013C3D2 /* RadiusImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadiusImageCell.m; sourceTree = "<group>"; };
+		CB499C4C1EAF49C60013C3D2 /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		CB499C4D1EAF49C60013C3D2 /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		CB499C4E1EAF49C60013C3D2 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		CB499C4F1EAF49C60013C3D2 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		CB499C531EAF4C350013C3D2 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB499C221EAF351E0013C3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB499C1C1EAF351D0013C3D2 = {
+			isa = PBXGroup;
+			children = (
+				CB499C271EAF351E0013C3D2 /* CornerRadiusImage */,
+				CB499C261EAF351E0013C3D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB499C261EAF351E0013C3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C251EAF351E0013C3D2 /* CornerRadiusImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB499C271EAF351E0013C3D2 /* CornerRadiusImage */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C451EAF36080013C3D2 /* Resource */,
+				CB499C3F1EAF36080013C3D2 /* Classes */,
+				CB499C421EAF36080013C3D2 /* Others */,
+				CB499C281EAF351E0013C3D2 /* Supporting Files */,
+			);
+			path = CornerRadiusImage;
+			sourceTree = "<group>";
+		};
+		CB499C281EAF351E0013C3D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C341EAF351E0013C3D2 /* Assets.xcassets */,
+				CB499C311EAF351E0013C3D2 /* Main.storyboard */,
+				CB499C361EAF351E0013C3D2 /* LaunchScreen.storyboard */,
+				CB499C391EAF351E0013C3D2 /* Info.plist */,
+				CB499C291EAF351E0013C3D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB499C3F1EAF36080013C3D2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C401EAF36080013C3D2 /* ViewController.h */,
+				CB499C411EAF36080013C3D2 /* ViewController.m */,
+				CB499C481EAF3B030013C3D2 /* RadiusImageCell.h */,
+				CB499C491EAF3B030013C3D2 /* RadiusImageCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CB499C421EAF36080013C3D2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C431EAF36080013C3D2 /* AppDelegate.h */,
+				CB499C441EAF36080013C3D2 /* AppDelegate.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CB499C451EAF36080013C3D2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C521EAF4C350013C3D2 /* CornerRadiusCategory */,
+				CB499C4B1EAF49C60013C3D2 /* YYFPSLabel */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB499C4B1EAF49C60013C3D2 /* YYFPSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C4C1EAF49C60013C3D2 /* YYFPSLabel.h */,
+				CB499C4D1EAF49C60013C3D2 /* YYFPSLabel.m */,
+				CB499C4E1EAF49C60013C3D2 /* YYWeakProxy.h */,
+				CB499C4F1EAF49C60013C3D2 /* YYWeakProxy.m */,
+			);
+			path = YYFPSLabel;
+			sourceTree = "<group>";
+		};
+		CB499C521EAF4C350013C3D2 /* CornerRadiusCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CB499C531EAF4C350013C3D2 /* UIImageView+CornerRadius.h */,
+				CB499C541EAF4C350013C3D2 /* UIImageView+CornerRadius.m */,
+			);
+			path = CornerRadiusCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB499C241EAF351E0013C3D2 /* CornerRadiusImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB499C3C1EAF351E0013C3D2 /* Build configuration list for PBXNativeTarget "CornerRadiusImage" */;
+			buildPhases = (
+				CB499C211EAF351E0013C3D2 /* Sources */,
+				CB499C221EAF351E0013C3D2 /* Frameworks */,
+				CB499C231EAF351E0013C3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CornerRadiusImage;
+			productName = CornerRadiusImage;
+			productReference = CB499C251EAF351E0013C3D2 /* CornerRadiusImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB499C1D1EAF351D0013C3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Silence;
+				TargetAttributes = {
+					CB499C241EAF351E0013C3D2 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB499C201EAF351D0013C3D2 /* Build configuration list for PBXProject "CornerRadiusImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB499C1C1EAF351D0013C3D2;
+			productRefGroup = CB499C261EAF351E0013C3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB499C241EAF351E0013C3D2 /* CornerRadiusImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB499C231EAF351E0013C3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB499C381EAF351E0013C3D2 /* LaunchScreen.storyboard in Resources */,
+				CB499C351EAF351E0013C3D2 /* Assets.xcassets in Resources */,
+				CB499C331EAF351E0013C3D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB499C211EAF351E0013C3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB499C461EAF36080013C3D2 /* ViewController.m in Sources */,
+				CB499C501EAF49C60013C3D2 /* YYFPSLabel.m in Sources */,
+				CB499C511EAF49C60013C3D2 /* YYWeakProxy.m in Sources */,
+				CB499C2A1EAF351E0013C3D2 /* main.m in Sources */,
+				CB499C471EAF36080013C3D2 /* AppDelegate.m in Sources */,
+				CB499C4A1EAF3B030013C3D2 /* RadiusImageCell.m in Sources */,
+				CB499C551EAF4C350013C3D2 /* UIImageView+CornerRadius.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB499C311EAF351E0013C3D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB499C321EAF351E0013C3D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB499C361EAF351E0013C3D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB499C371EAF351E0013C3D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB499C3A1EAF351E0013C3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB499C3B1EAF351E0013C3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB499C3D1EAF351E0013C3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CornerRadiusImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Silence.CornerRadiusImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB499C3E1EAF351E0013C3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CornerRadiusImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Silence.CornerRadiusImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB499C201EAF351D0013C3D2 /* Build configuration list for PBXProject "CornerRadiusImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB499C3A1EAF351E0013C3D2 /* Debug */,
+				CB499C3B1EAF351E0013C3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB499C3C1EAF351E0013C3D2 /* Build configuration list for PBXNativeTarget "CornerRadiusImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB499C3D1EAF351E0013C3D2 /* Debug */,
+				CB499C3E1EAF351E0013C3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB499C1D1EAF351D0013C3D2 /* Project object */;
+}
