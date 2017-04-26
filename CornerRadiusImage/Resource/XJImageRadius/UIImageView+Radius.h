@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CornerRadius.h"
 
 @interface UIImageView (Radius)
-- (void)cornerRadius:(CGFloat)cornerRadius rectCornerType:(UIRectCorner)rectCornerType;
+
+@property (nonatomic, strong, readonly) CornerRadius *cornerConfig;
+
 @end

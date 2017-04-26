@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB36A8A41EB03D2700C06884 /* CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = CB36A8A31EB03D2700C06884 /* CornerRadius.m */; };
 		CB499C2A1EAF351E0013C3D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB499C291EAF351E0013C3D2 /* main.m */; };
 		CB499C331EAF351E0013C3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB499C311EAF351E0013C3D2 /* Main.storyboard */; };
 		CB499C351EAF351E0013C3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB499C341EAF351E0013C3D2 /* Assets.xcassets */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CB36A8A21EB03D2700C06884 /* CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CornerRadius.h; sourceTree = "<group>"; };
+		CB36A8A31EB03D2700C06884 /* CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CornerRadius.m; sourceTree = "<group>"; };
 		CB499C251EAF351E0013C3D2 /* CornerRadiusImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerRadiusImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB499C291EAF351E0013C3D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CB499C321EAF351E0013C3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -148,6 +151,8 @@
 			children = (
 				CB499C5A1EAF51010013C3D2 /* UIImageView+Radius.h */,
 				CB499C5B1EAF51010013C3D2 /* UIImageView+Radius.m */,
+				CB36A8A21EB03D2700C06884 /* CornerRadius.h */,
+				CB36A8A31EB03D2700C06884 /* CornerRadius.m */,
 			);
 			path = XJImageRadius;
 			sourceTree = "<group>";
@@ -183,6 +188,7 @@
 				TargetAttributes = {
 					CB499C241EAF351E0013C3D2 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 73RJAGC8RF;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -223,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB36A8A41EB03D2700C06884 /* CornerRadius.m in Sources */,
 				CB499C461EAF36080013C3D2 /* ViewController.m in Sources */,
 				CB499C501EAF49C60013C3D2 /* YYFPSLabel.m in Sources */,
 				CB499C511EAF49C60013C3D2 /* YYWeakProxy.m in Sources */,
@@ -352,9 +359,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73RJAGC8RF;
 				INFOPLIST_FILE = CornerRadiusImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.Silence.CornerRadiusImage;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.silenc.CornerRadiusImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -363,9 +371,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 73RJAGC8RF;
 				INFOPLIST_FILE = CornerRadiusImage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cn.Silence.CornerRadiusImage;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.silenc.CornerRadiusImage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

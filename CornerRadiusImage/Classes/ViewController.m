@@ -62,7 +62,7 @@
                            @"image_03",
                            @"image_04",
                            @"image_05"];
-        for (NSInteger i = 0; i < 30; i++) {
+        for (NSInteger i = 0; i < 50; i++) {
             NSDictionary *dict = @{@"leftTitle":title[1], //title[arc4random() % 6],
                                    @"rightTitle":title[1], //title[arc4random() % 6],
                                    @"leftm":image[arc4random() % 5],
